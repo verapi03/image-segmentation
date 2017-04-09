@@ -3,6 +3,6 @@
 .DS_Store
 web/.htaccess
 
-# composer and keenio files to ignore
+# composer files to ignore
 vendor
 vendor/*
