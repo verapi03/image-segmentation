@@ -1,0 +1,6 @@
+{
+  "name": "Image Segmenter",
+  "description": "An elemental PHP app that makes use of the Silex web framework to download and apply a segmentation process to an image",
+  "repository": "https://github.com/verapi85/image-segmentation.git",
+  "addons": []
+}
