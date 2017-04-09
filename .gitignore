@@ -4,6 +4,5 @@
 web/.htaccess
 
 # composer and keenio files to ignore
-composer.phar
 vendor
 vendor/*
