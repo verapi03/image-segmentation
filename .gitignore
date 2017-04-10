@@ -2,7 +2,6 @@
 *.DS_Store
 .DS_Store
 web/.htaccess
-web/fileserver/image.jpg
 
 # composer files to ignore
 vendor
