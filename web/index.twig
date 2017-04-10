@@ -3,18 +3,17 @@
 {% block content %}
   <div align="center" style="padding:25px;margin-top:20px">
     <h1 style="padding: 15px">Image Segmenter</h1>
-    <p>Paste a public URL with an image to be downloaded and segmented:</p>
+    <p>Paste a public URL with an image to be downloaded and segmented <br>using the thresholding method to highlight the red color on the image.</p>
     <input type="text" id="input" style="padding:3px;margin-top:10px" size="57" placeholder="Image URL">
     <br>
     <br>
     <button type="button" onclick="segmenter()">Segmenter</button>
     <br>
     <p style="margin-top:30px"> Segmented image: </p>
-    <!--textarea rows="8" cols="60" id="output"></textarea-->
     <br>
     <div id="imgdiv">
         <script src="/segmenter.js"></script>
     </div>
-    <p>By Raul Andres Vera Pineda </p>
+    <p>By Raúl Andrés Vera Pineda </p>
   </div>
 {% endblock %}
